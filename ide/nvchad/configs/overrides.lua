@@ -8,8 +8,13 @@ M.treesitter = {
     "css",
     "javascript",
     "c",
+    "tsx",
     "markdown",
     "markdown_inline",
+  },
+  autotag = {
+    enable = true,
+    filetypes = { "html", "tsx", "jsx", "typescript", "javascriptreact", "typescriptreact"},
   },
   indent = {
     enable = true,

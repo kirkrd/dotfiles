@@ -38,11 +38,18 @@ local plugins = {
     "max397574/better-escape.nvim",
     event = "InsertEnter",
     config = function()
+      require("custom.configs.overrides")
       require("better_escape").setup()
     end,
   },
   {
     "MunifTanjim/nui.nvim",
+  },
+  { 'windwp/nvim-ts-autotag',
+    event = "InsertEnter",
+    config = function()
+      require("nvim-ts-autotag").setup()
+    end,
   },
   {
     "vuki656/package-info.nvim",
