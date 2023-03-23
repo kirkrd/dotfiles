@@ -53,6 +53,7 @@ local plugins = {
   },
   {
     "vuki656/package-info.nvim",
+    ft = "json",
     config = function()
       require('package-info').setup()
     end,
