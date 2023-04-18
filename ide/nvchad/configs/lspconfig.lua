@@ -13,5 +13,10 @@ for _, lsp in ipairs(servers) do
   }
 end
 
+-- Autoformat on save
+vim.cmd [[
+    autocmd BufWritePre *.lua,*.js,*.ts,*.tsx,*.html,*.css,*.json,*.md lua vim.lsp.buf.format({ bufnr = vim.api.nvim_get_current_buf() })
+]]
+
 -- 
 -- lspconfig.pyright.setup { blabla}
