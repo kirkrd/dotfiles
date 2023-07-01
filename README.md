@@ -13,13 +13,16 @@ Im writing this setup and guide both for my personal setup on different projects
 ### macOS
 
 Application manager: `homebrew`
+
 Terminal shell: `fish`
+
 Terminal: `alacritty`
+
 Window mangement: `yabai` `skhd` `Space Launcher`
+
 Ide: `Nvim`
 
-- Autohide launcher and topbar.
-- Accessability reduce motion.
+Package manager: `asdf`
 
 ## People and resources that have inspired me to learn more and improve my developer environment
 
