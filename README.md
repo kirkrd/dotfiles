@@ -1,6 +1,6 @@
 # configs
 
-My general config setups for terminals, ide and everything i use on a daily basis as a developer.
+This repository contains my personal dotfiles, including configurations for Alacritty, Neovim, and macOS settings. These dotfiles help me maintain a consistent development environment across different machines and streamline my workflow.
 
 ## My philosophy when working with software development
 
