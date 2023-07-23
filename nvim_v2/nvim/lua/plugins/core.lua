@@ -22,6 +22,16 @@ return {
     },
     { 'theprimeagen/harpoon' },
     { 'mbbill/undotree' },
+    {
+        "folke/which-key.nvim",
+        event = "VeryLazy",
+        init = function()
+            vim.o.timeout = true
+            vim.o.timeoutlen = 300
+        end,
+        opts = {
+        }
+    },
     { 'tpope/vim-fugitive' },
     {
         'VonHeikemen/lsp-zero.nvim',

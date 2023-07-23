@@ -3,10 +3,12 @@ vim.g.mapleader = " "
 vim.keymap.set('n', '<C-p>', vim.fn.git_files, {})
 
 vim.keymap.set('n', '<leader>ps', function()
-	buildin.grep_string({ search = vim.fn.input("Grep > ")});
+    buildin.grep_string({ search = vim.fn.input("Grep > ") });
 end)
 
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+vim.keymap.set("n", "<C-s>", ":update<cr>")
+
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 
