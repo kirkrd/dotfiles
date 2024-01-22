@@ -1,1 +1,0 @@
-- https://www.joshmedeski.com/posts/blazing-fast-window-management-on-macos/

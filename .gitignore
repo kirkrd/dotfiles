@@ -1,3 +1,6 @@
 *.netrwhist
 ./nvim_v2/nvim/.netrwhist
 *.DS_Store
+node_modules
+
+**/raycast/extensions/**
