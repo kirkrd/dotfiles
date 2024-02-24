@@ -19,13 +19,9 @@ alias vi="nvim"
 alias vim="nvim"
 
 
-# Repos
-alias emb="cd ~/repos/work/events-management-back"
-alias emf="cd ~/repos/work/event-management-front"
-
 # Configs
 alias awsconfig="vi ~/.aws/credentials"
-alias alaconfig="vi ~/.config/alacritty/alacritty.yml"
+alias alaconfig="vi ~/.config/alacritty/alacritty.toml"
 alias skhdconfig="vi ~/.config/skhd/skhdrc"
 alias yabaiconfig="vi ~/.config/yabai/yabairc"
 alias fishconfig="vi ~/.config/fish/config.fish"
@@ -34,6 +30,8 @@ alias fishsource="source ~/.config/fish/config.fish"
 alias tmuxconfig="vi ~/.tmux.conf"
 alias tsession="vi ~/.local/scripts/tmux-sessionizer"
 alias viconfig="cd ~/.config/nvim/lua"
+alias configcommit="cp -r ~/.config ~/repos/personal/configs/config"
+
 
 # AWS
 alias awspg="aws sso login --profile Kristoffer-PG"
