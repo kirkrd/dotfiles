@@ -5,6 +5,7 @@ lsp.preset("recommended")
 lsp.ensure_installed({
     'eslint',
     'rust_analyzer',
+    'csharp_ls'
 })
 
 lsp.nvim_workspace()
